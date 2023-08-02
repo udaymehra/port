@@ -1,0 +1,178 @@
+body{
+    background-image:url(./photos/images.jpeg);
+    background-attachment: fixed;
+    color: white;
+}
+.left
+{ 
+    justify-content: space-between;
+    margin-right:30px;
+    padding-left: 99px;
+    padding-right: 110px;
+}
+h1{
+    color: lightgray;
+    text-align: center;
+}
+.navbar{
+    margin-top: -9px;
+}
+p{
+    font-size: .9cm;
+    /* text-align: center; */
+    font-family:'Times New Roman', Times, serif;
+    color:white ;
+}
+a{
+    background-color: black;     
+    text-decoration: none;
+    border-color: black;
+    border-radius: 10px;
+}
+.navbar li{
+    
+    border-radius: 20px;
+    justify-content:space-around;
+    border: 10px;
+    font-size: 26.5px;
+    /* align-content: end; */
+    padding-right:65px;
+    margin-bottom: -9px;
+    text-decoration: none;
+}
+
+.leftsec{
+    
+   font-style: oblique;
+   color: white;
+}
+a{
+    
+    color:white ;
+    border-radius: 10px
+    
+    /* text-decoration: none; */
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+hr{
+    border: 0;
+    background: orange;
+    height: 2px;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(35, 174, 243);
+
+}
+section{
+    
+    display: flex;
+    justify-content: space-around; 
+    margin: 23px  0;
+}
+.leftsec{
+    
+    /* font-size: 50%; */
+    width: 30%;
+    margin: 20px;
+}
+.rightsec{
+    
+    width: 30%;
+    background-image: url();
+    border-radius: 10px;
+    margin-left :50px;
+}
+.rightsec img{
+    
+    width: 80%;
+    margin: 70px;
+    height: 80%;
+}
+nav ul li a:hover{
+    color: red;
+    font-size: 28px;
+}
+
+.naam:hover{  
+    color: orange;
+}
+.card{
+    margin-top: 40px;
+    display: flex;
+    margin: -10px 40px 30px  30 px  
+}
+.container  {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    padding: 90px;
+    background-color: white;
+    width: 33%;
+    height: 350px;
+    margin: -10px 40px 30px  30px
+        
+    
+}
+.container img
+{
+    margin-top:40px ;
+    border: 5px;
+    border-color: black;
+}
+.icons{
+    background: white;
+    border-color: black;
+    border-radius: 6px 6px;
+    margin: 5px 5px ;
+}
+#merebaare{
+    list-style: none;
+    font-size: 35px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+padding-right: 250px;
+
+}
+.left:hover{
+       color: greenyellow;
+}
+.container:hover{
+    background-color:orange;
+
+}
+.khabe{
+    width: 55%;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    padding-left: 80px;
+}
+.content h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+.saje img{
+    margin-left: 900px;
+    width: 40%;
+}
+.intro{
+    font-size: 30px;
+    margin-bottom: -5px;
+    color: rgb(177, 247, 36);
+}
